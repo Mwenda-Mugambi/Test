@@ -7,14 +7,14 @@ import pandas as pd
 
 # Load the saved models
 # Correct way to load the model using pickle
-# with open('prophet_model_super.pkl', 'rb') as file:
-#     model_super = pickle.load(file)
+with open('prophet_model_super.pkl', 'rb') as file:
+    model_super = pickle.load(file)
 
-# with open('prophet_model_diesel.pkl', 'rb') as file:
-#     model_diesel = pickle.load(file)
+with open('prophet_model_diesel.pkl', 'rb') as file:
+    model_diesel = pickle.load(file)
 
-# with open('prophet_model_kerosene.pkl', 'rb') as file:
-#     model_kerosene = pickle.load(file)
+with open('prophet_model_kerosene.pkl', 'rb') as file:
+    model_kerosene = pickle.load(file)
 
 def main():
 
