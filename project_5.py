@@ -2,7 +2,6 @@
 
 import streamlit as st
 import pickle
-import joblib
 from prophet import Prophet
 import pandas as pd
 
